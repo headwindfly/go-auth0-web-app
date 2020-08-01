@@ -7,7 +7,7 @@ import (
 
 	"clevergo.tech/authmiddleware"
 	"clevergo.tech/clevergo"
-	"pkg.razonyang.com/go-auth0-web-app/internal/core"
+	"github.com/headwindfly/go-auth0-web-app/internal/core"
 )
 
 func (h *Handler) login(c *clevergo.Context) error {

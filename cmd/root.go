@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
+	"github.com/headwindfly/go-auth0-web-app/internal/core"
 	"github.com/joho/godotenv"
 	"github.com/urfave/cli/v2"
-	"pkg.razonyang.com/go-auth0-web-app/internal/core"
 )
 
 var (

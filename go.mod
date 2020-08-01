@@ -1,4 +1,4 @@
-module pkg.razonyang.com/go-auth0-web-app
+module github.com/headwindfly/go-auth0-web-app
 
 go 1.13
 
@@ -11,7 +11,7 @@ require (
 	clevergo.tech/jetrenderer v0.3.0
 	clevergo.tech/log v0.2.0
 	clevergo.tech/osenv v0.2.0
-	github.com/CloudyKit/jet/v4 v4.1.0
+	github.com/CloudyKit/jet/v4 v4.1.0 // indirect
 	github.com/CloudyKit/jet/v5 v5.0.0
 	github.com/alexedwards/scs/v2 v2.4.0
 	github.com/coreos/go-oidc v2.2.1+incompatible

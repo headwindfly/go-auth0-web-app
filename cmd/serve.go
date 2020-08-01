@@ -13,13 +13,13 @@ import (
 	"github.com/CloudyKit/jet/v5"
 	"github.com/alexedwards/scs/v2"
 	"github.com/gobuffalo/packr/v2"
+	"github.com/headwindfly/go-auth0-web-app/internal/core"
+	"github.com/headwindfly/go-auth0-web-app/internal/handlers/dashboard"
+	"github.com/headwindfly/go-auth0-web-app/internal/handlers/home"
+	"github.com/headwindfly/go-auth0-web-app/internal/handlers/user"
+	"github.com/headwindfly/go-auth0-web-app/internal/middleware"
 	"github.com/urfave/cli/v2"
 	"go.uber.org/zap"
-	"pkg.razonyang.com/go-auth0-web-app/internal/core"
-	"pkg.razonyang.com/go-auth0-web-app/internal/handlers/dashboard"
-	"pkg.razonyang.com/go-auth0-web-app/internal/handlers/home"
-	"pkg.razonyang.com/go-auth0-web-app/internal/handlers/user"
-	"pkg.razonyang.com/go-auth0-web-app/internal/middleware"
 )
 
 func init() {
